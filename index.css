@@ -1,0 +1,216 @@
+.main{
+
+    position: relative;
+    width:100%;
+    height:500px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.main img{
+ 
+    width: 100%; height: 500px; object-fit: cover; object-position: 50% 50%;
+}
+.space{
+    width:100%;
+    height: 60px;
+}
+ .welcome h1 {
+    color: transparent;
+    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+    font-family: 'Denk One', sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: 4em;
+    position: absolute;
+    left: 30%;
+   
+    margin-left: -200px;
+    -webkit-animation: horror-animation 5s infinite;
+    -moz-animation: horror-animation 5s infinite;
+    -o-animation: horror-animation 5s infinite;
+    animation: horror-animation 5s infinite;
+    font-family: 'Blood Crow', sans-serif;
+    font-family: 'Blood Crow Shadow', sans-serif;
+    font-family: 'Blood Crow Shadow Condensed', sans-serif;
+    font-family: 'Blood Crow Expanded', sans-serif;
+    font-family: 'Blood Crow Condensed', sans-serif;
+    font-family: 'Blood Crow Shadow Italic', sans-serif;
+    font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+    font-family: 'Blood Crow Leftalic', sans-serif;
+    font-family: 'Blood Crow Italic', sans-serif;
+    font-family: 'Blood Crow Expanded Italic', sans-serif;
+    font-family: 'Blood Crow Condensed Italic', sans-serif;
+  }
+  @-webkit-keyframes horror-animation {
+  
+    30% {
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+      left: 51%;
+    }
+   
+  }
+  @-moz-keyframes horror-animation {
+
+    30% {
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+      left: 51%;
+    }
+  
+  }
+  @-o-keyframes horror-animation {
+
+    30% {
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+      left: 51%;
+    }
+  
+  }
+  @keyframes horror-animation {
+   
+    30% {
+      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
+      left: 51%;
+    }
+ 
+  }
+  .paragraph p{
+      font-size: 50px;
+    font-family: 'Blood Crow', sans-serif;
+    font-family: 'Blood Crow Shadow', sans-serif;
+    font-family: 'Blood Crow Shadow Condensed', sans-serif;
+    font-family: 'Blood Crow Expanded', sans-serif;
+    font-family: 'Blood Crow Condensed', sans-serif;
+    font-family: 'Blood Crow Shadow Italic', sans-serif;
+    font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+    font-family: 'Blood Crow Leftalic', sans-serif;
+    font-family: 'Blood Crow Italic', sans-serif;
+    font-family: 'Blood Crow Expanded Italic', sans-serif;
+    font-family: 'Blood Crow Condensed Italic', sans-serif;
+margin-left: 10px;
+text-align: center;
+                                                
+  }
+  .parent_rooms {
+      background-color: rgba(0, 0, 0, 0.562);
+      width: 100%;
+    height: auto;
+    overflow: hidden;
+    text-align: center;
+  }
+  .parent_rooms h2{
+    font-size: 50px;
+      font-family: 'Blood Crow', sans-serif;
+      font-family: 'Blood Crow Shadow', sans-serif;
+      font-family: 'Blood Crow Shadow Condensed', sans-serif;
+      font-family: 'Blood Crow Expanded', sans-serif;
+      font-family: 'Blood Crow Condensed', sans-serif;
+      font-family: 'Blood Crow Shadow Italic', sans-serif;
+      font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+      font-family: 'Blood Crow Leftalic', sans-serif;
+      font-family: 'Blood Crow Italic', sans-serif;
+      font-family: 'Blood Crow Expanded Italic', sans-serif;
+      font-family: 'Blood Crow Condensed Italic', sans-serif;
+  margin-left: 10px;
+  text-align: center;
+  }
+  .parent_rooms .rooms{
+    position: relative;
+    width: 30%;
+    height: 400px;
+    float: left;
+    margin: 10px;
+    overflow: hidden;
+    
+  }
+.parent_rooms .rooms img{
+margin-left: auto;
+margin-right: auto;
+width: 400px;
+height: 300px;
+display: block;
+border-radius: 7px;
+border: rgb(226, 181, 181);
+}
+.parent_rooms .rooms #name{
+  color: red;
+  font-family: 'Blood Crow', sans-serif;
+  font-family: 'Blood Crow Shadow', sans-serif;
+  font-family: 'Blood Crow Shadow Condensed', sans-serif;
+  font-family: 'Blood Crow Expanded', sans-serif;
+  font-family: 'Blood Crow Condensed', sans-serif;
+  font-family: 'Blood Crow Shadow Italic', sans-serif;
+  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+  font-family: 'Blood Crow Leftalic', sans-serif;
+  font-family: 'Blood Crow Italic', sans-serif;
+  font-family: 'Blood Crow Expanded Italic', sans-serif;
+  font-family: 'Blood Crow Condensed Italic', sans-serif;
+  font-size: 30px;
+}
+#location{
+  float: left;
+  height: 70px;
+  margin-left: 100px;
+  width: 100px;
+}
+#locationp{
+  float: left;
+  font-family: 'Blood Crow', sans-serif;
+  font-family: 'Blood Crow Shadow', sans-serif;
+  font-family: 'Blood Crow Shadow Condensed', sans-serif;
+  font-family: 'Blood Crow Expanded', sans-serif;
+  font-family: 'Blood Crow Condensed', sans-serif;
+  font-family: 'Blood Crow Shadow Italic', sans-serif;
+  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+  font-family: 'Blood Crow Leftalic', sans-serif;
+  font-family: 'Blood Crow Italic', sans-serif;
+  font-family: 'Blood Crow Expanded Italic', sans-serif;
+  font-family: 'Blood Crow Condensed Italic', sans-serif;
+  font-size: 40px;
+  margin-left: 100px;
+}
+#call{
+  float: left;
+  height: auto;
+  margin-left: 100px;
+  width: 100px;
+}
+#callp{
+  float: left;
+  font-family: 'Blood Crow', sans-serif;
+  font-family: 'Blood Crow Shadow', sans-serif;
+  font-family: 'Blood Crow Shadow Condensed', sans-serif;
+  font-family: 'Blood Crow Expanded', sans-serif;
+  font-family: 'Blood Crow Condensed', sans-serif;
+  font-family: 'Blood Crow Shadow Italic', sans-serif;
+  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+  font-family: 'Blood Crow Leftalic', sans-serif;
+  font-family: 'Blood Crow Italic', sans-serif;
+  font-family: 'Blood Crow Expanded Italic', sans-serif;
+  font-family: 'Blood Crow Condensed Italic', sans-serif;
+  font-size: 40px;
+  margin-left: 100px;
+}
+#working{
+margin-top: 200px;
+text-align: center;
+float: left;
+font-family: 'Blood Crow', sans-serif;
+font-family: 'Blood Crow Shadow', sans-serif;
+font-family: 'Blood Crow Shadow Condensed', sans-serif;
+font-family: 'Blood Crow Expanded', sans-serif;
+font-family: 'Blood Crow Condensed', sans-serif;
+font-family: 'Blood Crow Shadow Italic', sans-serif;
+font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
+font-family: 'Blood Crow Leftalic', sans-serif;
+font-family: 'Blood Crow Italic', sans-serif;
+font-family: 'Blood Crow Expanded Italic', sans-serif;
+font-family: 'Blood Crow Condensed Italic', sans-serif;
+font-size: 40px;
+}
+.buttons a img{
+
+  margin-left: 400px;
+  margin-top: 100px;
+  width: 100px;
+  height: 100px;
+}
