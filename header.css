@@ -31,51 +31,53 @@
     width:100%;
     height:60px;
     background-color: rgb(0, 0, 0);
+    
 }
+.header img{
+    width: 100%;
+    position: relative;
 
+}
 .header ul{
     width:65%;
     
     float: right;
     list-style-type: none;
+    
 }
 
 .header ul li a{
     float: left;
     margin-left: 15px;
     text-decoration: none;
-    color: rgb(175, 0, 0);
+    color: rgb(255, 255, 255);
     font-weight: bold;
     font-size: 23px;
     opacity: .7;
-    font-family: 'Blood Crow', sans-serif;
-    font-family: 'Blood Crow Shadow', sans-serif;
-    font-family: 'Blood Crow Shadow Condensed', sans-serif;
-    font-family: 'Blood Crow Expanded', sans-serif;
-    font-family: 'Blood Crow Condensed', sans-serif;
-    font-family: 'Blood Crow Shadow Italic', sans-serif;
-    font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-    font-family: 'Blood Crow Leftalic', sans-serif;
-    font-family: 'Blood Crow Italic', sans-serif;
-    font-family: 'Blood Crow Expanded Italic', sans-serif;
-    font-family: 'Blood Crow Condensed Italic', sans-serif;
+    
 }
 
 .header ul li a:hover{
     opacity: .5;
+    color: #b10000f5;
 }
 
 @media only screen and (min-width:320px) and (max-width:420px){
     #menu{
         display: block;
+        
     }
     .header{
-    
+   
        height: 250px;
-       background-color: skyblue;
+       background-color: rgb(0, 0, 0);
     }
     .header ul{
         width: 100%;
+    }
+    .main .header img{
+        width: 100%;
+
     }
     .header ul li a{
         width:100%;
@@ -88,14 +90,15 @@
 
 
 
+
 @media only screen and (min-width:421px) and (max-width:655px){
     #menu{
         display: block;
     }
     .header{
-    
+    width: 100%;
        height: 250px;
-       background-color: skyblue;
+       background-color: rgb(0, 0, 0);
     }
     .header ul{
         width: 100%;
