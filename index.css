@@ -1,6 +1,6 @@
 body {
-  Max-width: 900%;
-  Margin: auto;
+  Max-width: 800%;
+margin: auto;
   }
 .main{
 
@@ -18,82 +18,38 @@ body {
     width:100%;
     height: 60px;
 }
+.welcome{
+ height: 650px;
+ background-image: url("images/p\ background.jpg");
+ background-size: 1500px 786px;
+}
+.welcome .background h1{
+  font-size: 50px;
+ color: white;
+}
  .welcome h1 {
-    color: transparent;
-    text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-    font-family: 'Denk One', sans-serif;
-    text-transform: uppercase;
-    letter-spacing: 2px;
-    font-size: 4em;
-    position: absolute;
-    left: 30%;
-   
-    margin-left: -200px;
-    -webkit-animation: horror-animation 5s infinite;
-    -moz-animation: horror-animation 5s infinite;
-    -o-animation: horror-animation 5s infinite;
-    animation: horror-animation 5s infinite;
-    font-family: 'Blood Crow', sans-serif;
-    font-family: 'Blood Crow Shadow', sans-serif;
-    font-family: 'Blood Crow Shadow Condensed', sans-serif;
-    font-family: 'Blood Crow Expanded', sans-serif;
-    font-family: 'Blood Crow Condensed', sans-serif;
-    font-family: 'Blood Crow Shadow Italic', sans-serif;
-    font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-    font-family: 'Blood Crow Leftalic', sans-serif;
-    font-family: 'Blood Crow Italic', sans-serif;
-    font-family: 'Blood Crow Expanded Italic', sans-serif;
-    font-family: 'Blood Crow Condensed Italic', sans-serif;
+  color: black;
+  text-align: center;
   }
-  @-webkit-keyframes horror-animation {
-  
-    30% {
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-      left: 51%;
-    }
-   
+  .line{
+    width:400px;
+    height: 2px;
+    margin: 0px auto;
+    background-color: #ddd;
+    margin-top: -5px;
   }
-  @-moz-keyframes horror-animation {
+  .paragraph{
+    background-image: url("images/blood\ paper.jpg");
+  width: 70%;
+  background-size: 1366px 786px;
+      font-size: 30px; 
+text-align: center;          
+margin: auto;  
 
-    30% {
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-      left: 51%;
-    }
-  
-  }
-  @-o-keyframes horror-animation {
-
-    30% {
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-      left: 51%;
-    }
-  
-  }
-  @keyframes horror-animation {
-   
-    30% {
-      text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-      left: 51%;
-    }
- 
   }
   .paragraph p{
-      font-size: 50px;
-    font-family: 'Blood Crow', sans-serif;
-    font-family: 'Blood Crow Shadow', sans-serif;
-    font-family: 'Blood Crow Shadow Condensed', sans-serif;
-    font-family: 'Blood Crow Expanded', sans-serif;
-    font-family: 'Blood Crow Condensed', sans-serif;
-    font-family: 'Blood Crow Shadow Italic', sans-serif;
-    font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-    font-family: 'Blood Crow Leftalic', sans-serif;
-    font-family: 'Blood Crow Italic', sans-serif;
-    font-family: 'Blood Crow Expanded Italic', sans-serif;
-    font-family: 'Blood Crow Condensed Italic', sans-serif;
-margin-left: 10px;
-text-align: center;
-width: 90%;
-                                                
+    margin: 10px;
+    color: rgb(255, 255, 255);
   }
   .parent_rooms {
     background-image: url("images/background.jpg");
@@ -101,33 +57,24 @@ width: 90%;
     height: auto;
     overflow: hidden;
     text-align: center;
+    margin-bottom: -30px;
    
   }
   .parent_rooms h2{
     font-size: 50px;
-      font-family: 'Blood Crow', sans-serif;
-      font-family: 'Blood Crow Shadow', sans-serif;
-      font-family: 'Blood Crow Shadow Condensed', sans-serif;
-      font-family: 'Blood Crow Expanded', sans-serif;
-      font-family: 'Blood Crow Condensed', sans-serif;
-      font-family: 'Blood Crow Shadow Italic', sans-serif;
-      font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-      font-family: 'Blood Crow Leftalic', sans-serif;
-      font-family: 'Blood Crow Italic', sans-serif;
-      font-family: 'Blood Crow Expanded Italic', sans-serif;
-      font-family: 'Blood Crow Condensed Italic', sans-serif;
-  margin-left: 10px;
+ color: red;
   text-align: center;
   }
   .parent_rooms .rooms{
     position: relative;
     width: 30%;
-    height: 400px;
+    height: 420px;
     float: left;
     margin: 10px;
     overflow: hidden;
     
   }
+
 .parent_rooms .rooms img{
 margin-left: auto;
 margin-right: auto;
@@ -142,25 +89,27 @@ border: rgb(226, 181, 181);
 
   font-size: 30px;
 }
+.book{
+  color: rgb(255, 255, 255);
+  height: 350px;
+  background-image: url("images/book.jpg");
+}
+.book h1{
+  font-size: 40px;
+  text-align: center;
+}
+
 #location{
   float: left;
-  height: 70px;
+  height: 100px;
   margin-left: 100px;
   width: 100px;
+  margin-top: -50px;
+  
 }
 #locationp{
   
-  font-family: 'Blood Crow', sans-serif;
-  font-family: 'Blood Crow Shadow', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed', sans-serif;
-  font-family: 'Blood Crow Expanded', sans-serif;
-  font-family: 'Blood Crow Condensed', sans-serif;
-  font-family: 'Blood Crow Shadow Italic', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-  font-family: 'Blood Crow Leftalic', sans-serif;
-  font-family: 'Blood Crow Italic', sans-serif;
-  font-family: 'Blood Crow Expanded Italic', sans-serif;
-  font-family: 'Blood Crow Condensed Italic', sans-serif;
+  color: rgb(255, 255, 255);
   font-size: 40px;
   
 }
@@ -172,17 +121,7 @@ border: rgb(226, 181, 181);
 }
 #callp{
   
-  font-family: 'Blood Crow', sans-serif;
-  font-family: 'Blood Crow Shadow', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed', sans-serif;
-  font-family: 'Blood Crow Expanded', sans-serif;
-  font-family: 'Blood Crow Condensed', sans-serif;
-  font-family: 'Blood Crow Shadow Italic', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-  font-family: 'Blood Crow Leftalic', sans-serif;
-  font-family: 'Blood Crow Italic', sans-serif;
-  font-family: 'Blood Crow Expanded Italic', sans-serif;
-  font-family: 'Blood Crow Condensed Italic', sans-serif;
+
   font-size: 40px;
   margin-left: 200px;
 }
@@ -190,46 +129,15 @@ border: rgb(226, 181, 181);
 
 text-align: center;
 
-font-family: 'Blood Crow', sans-serif;
-font-family: 'Blood Crow Shadow', sans-serif;
-font-family: 'Blood Crow Shadow Condensed', sans-serif;
-font-family: 'Blood Crow Expanded', sans-serif;
-font-family: 'Blood Crow Condensed', sans-serif;
-font-family: 'Blood Crow Shadow Italic', sans-serif;
-font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-font-family: 'Blood Crow Leftalic', sans-serif;
-font-family: 'Blood Crow Italic', sans-serif;
-font-family: 'Blood Crow Expanded Italic', sans-serif;
-font-family: 'Blood Crow Condensed Italic', sans-serif;
-font-size: 40px;
-}
-.buttons .follow{
-  text-align: center;
-  font-family: 'Blood Crow', sans-serif;
-font-family: 'Blood Crow Shadow', sans-serif;
-font-family: 'Blood Crow Shadow Condensed', sans-serif;
-font-family: 'Blood Crow Expanded', sans-serif;
-font-family: 'Blood Crow Condensed', sans-serif;
-font-family: 'Blood Crow Shadow Italic', sans-serif;
-font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-font-family: 'Blood Crow Leftalic', sans-serif;
-font-family: 'Blood Crow Italic', sans-serif;
-font-family: 'Blood Crow Expanded Italic', sans-serif;
-font-family: 'Blood Crow Condensed Italic', sans-serif;
-font-size: 40px;
-}
-.buttons a img{
 
-  margin-left: 400px;
-  margin-top: 100px;
-  width: 100px;
-  height: 100px;
+font-size: 40px;
 }
+
 @media only screen and (min-width:320px) and (max-width:420px){
   .main{
     position: relative;
     width:100%;
-    height:300px;
+    height:500px;
     background-repeat: no-repeat;
     background-size: cover;
   }
@@ -239,19 +147,28 @@ font-size: 40px;
     height: 50%;
   }
   .welcome{
+    margin-top: -282px;
     width: 100%;
+    height: 320px;
+    background-size: 400px 400px;
     
   }
-  .welcome h1{
+  .welcome .background h1{
     
    left: 70%;
-   font-size: 50px;
+   font-size: 30px;
     
     width: 100%;
     text-align: center;
   }
+ .line{
+    width: 90px;
+  }
+  .paragraph{
+    width: 80%;
+  }
   .paragraph p{
-font-size: 20px;
+font-size: 10px;
   }
   .parent_rooms{
     
@@ -260,6 +177,7 @@ font-size: 20px;
   .parent_rooms .rooms{
     width: 26%;
     float: left;
+    margin-left: 20px;
   }
   .parent_rooms .rooms img{
     width: 100%;
@@ -267,23 +185,30 @@ font-size: 20px;
     position: relative;
     height: 120px;
   }
+  .parent_rooms h2{
+    font-size: 40px;
+  }
  
   .parent_rooms .rooms #name{
     font-size: 100%;
     
   }
+  .book{
+    height: 300px;
+  }
   #location{
-    width: 50px;
+    margin-top: 10px;
+    width: 30px;
     height: 50px;
     float: left;
-    margin-left: 50px;
+    margin-left: 10px;
     
   }
   #locationp{
     width: 100%;
     font-size: 20px;
     text-align: center;
-    margin-left: 10px;
+    
   }
   #call{
     width: 50px;
@@ -312,125 +237,88 @@ font-size: 20px;
   
   .main .header img{
     width: 100%;
-    height: 80%;
+    height: 83%;
   }
  
-  .paragraph p{
-    font-size: 20px;
-    width: 90%;
-   
-    
-      }
-      .buttons .follow{
-        
-        margin-top: -100px;
-    
-      }
+ 
   
-  .parent_rooms{
+  .welcome{
+  
     width: 100%;
-    height: 400px;
+    height: 320px;
+    background-size: 400px 400px;
     
+  }
+  .welcome .background h1{
+    
+   left: 70%;
+   font-size: 30px;
+    
+    width: 100%;
+    text-align: center;
+  }
+ .line{
+    width: 90px;
+  }
+  .paragraph{
+    width: 80%;
+  }
+  .paragraph p{
+font-size: 10px;
+  }
+  .parent_rooms{
+    
+    height: 350px;
   }
   .parent_rooms .rooms{
-    width: 28%;
+    width: 26%;
     float: left;
+    margin-left: 20px;
   }
   .parent_rooms .rooms img{
-    width: 80%;
-    position: relative;
-    height: 150px;
-    margin-left: 20px;
-    border:rgb(226, 181, 181);
-    border-radius: 20px 20px 20px 20px;
+    width: 100%;
     
+    position: relative;
+    height: 120px;
+  }
+  .parent_rooms h2{
+    font-size: 40px;
   }
  
   .parent_rooms .rooms #name{
     font-size: 100%;
+    
   }
-.welcome h1{
-
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  font-family: 'Denk One', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 50px;
-  position: absolute;
-  left: 60%;
- 
-  margin-left: -200px;
-  -webkit-animation: horror-animation 5s infinite;
-  -moz-animation: horror-animation 5s infinite;
-  -o-animation: horror-animation 5s infinite;
-  animation: horror-animation 5s infinite;
-  font-family: 'Blood Crow', sans-serif;
-  font-family: 'Blood Crow Shadow', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed', sans-serif;
-  font-family: 'Blood Crow Expanded', sans-serif;
-  font-family: 'Blood Crow Condensed', sans-serif;
-  font-family: 'Blood Crow Shadow Italic', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-  font-family: 'Blood Crow Leftalic', sans-serif;
-  font-family: 'Blood Crow Italic', sans-serif;
-  font-family: 'Blood Crow Expanded Italic', sans-serif;
-  font-family: 'Blood Crow Condensed Italic', sans-serif;
-}
-@-webkit-keyframes horror-animation {
-
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 51%;
+  .book{
+    height: 300px;
   }
- 
-}
-@-moz-keyframes horror-animation {
-
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 51%;
+  #location{
+    margin: auto;
+    width: 30px;
+    height: 50px;
+   margin-left: 30px;
+    
   }
-
-}
-@-o-keyframes horror-animation {
-
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 51%;
+  #locationp{
+    width: 70%;
+    font-size: 20px;
+    margin-left: 70px;
+    margin: auto;
   }
-
-}
-@keyframes horror-animation {
- 
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 51%;
+  #call{
+    width: 50px;
+    height: 50px;
+    float: left;
+    margin-left: 50px;
   }
-}
-#location{
-  width: 50px;
-  height: 50px;
+  #callp{
+    width: 100%;
+    font-size: 20px;
+    
+    margin-left: 10px;
   
-}
-#locationp{
-  
-  font-size: 20px;
-}
-#call{
-  width: 50px;
-  height: 50px;
-}
-#callp{
 
-  font-size: 30px;
-}
-#working{
-  margin: 7px;
-  font-size: 35px;
-}
-
-
+  }
 }
 @media only screen and (min-width:651px) and (max-width:1200px){
 .main{
@@ -441,108 +329,85 @@ font-size: 20px;
   width: 100%;
   height: 300px;
 }
-.paragraph p{
-  font-size: 30px;
+.welcome{
+  
+  width: 100%;
+  height: 320px;
+  background-size: 650px 420px;
   
 }
-.welcome{
+.welcome .background h1{
+  
+ left: 70%;
+ font-size: 30px;
+  
   width: 100%;
+  text-align: center;
 }
-.welcome h1{
-
-  color: transparent;
-  text-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
-  font-family: 'Denk One', sans-serif;
-  text-transform: uppercase;
-  letter-spacing: 2px;
-  font-size: 50px;
-  position: absolute;
-  left: 10%;
- 
- 
-  -webkit-animation: horror-animation 5s infinite;
-  -moz-animation: horror-animation 5s infinite;
-  -o-animation: horror-animation 5s infinite;
-  animation: horror-animation 5s infinite;
-  font-family: 'Blood Crow', sans-serif;
-  font-family: 'Blood Crow Shadow', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed', sans-serif;
-  font-family: 'Blood Crow Expanded', sans-serif;
-  font-family: 'Blood Crow Condensed', sans-serif;
-  font-family: 'Blood Crow Shadow Italic', sans-serif;
-  font-family: 'Blood Crow Shadow Condensed Italic', sans-serif;
-  font-family: 'Blood Crow Leftalic', sans-serif;
-  font-family: 'Blood Crow Italic', sans-serif;
-  font-family: 'Blood Crow Expanded Italic', sans-serif;
-  font-family: 'Blood Crow Condensed Italic', sans-serif;
+.line{
+  width: 90px;
 }
-@-webkit-keyframes horror-animation {
-
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 31%;
-  }
- 
+.paragraph{
+  width: 90%;
 }
-@-moz-keyframes horror-animation {
-
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 31%;
-  }
-
-}
-@-o-keyframes horror-animation {
-
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 31%;
-  }
-
-}
-@keyframes horror-animation {
- 
-  30% {
-    text-shadow: 0 0 5px rgba(255, 0, 0, 0.3);
-    left: 31%;
-  }
-}
-#callp{
-  font-size: 30px;
-}
-#call{
-  width: 50px;
-  height: 50px;
-}
-#working{
-  margin-left: 30px;
+.paragraph p{
+font-size: 13px;
 }
 .parent_rooms{
   
-  height: 400px;
+  height: 350px;
 }
 .parent_rooms .rooms{
-  width: 28%;
-  margin-left: 20px;
+  width: 26%;
+  
+  margin-left: 30px;
 }
 .parent_rooms .rooms img{
-  width: 80%; 
-  position: relative;
-  height: 180px;
-  margin-left: 20px;
-  border-radius: 7px;
+  width: 90%;
   
+  position: relative;
+  height: 100px;
+  
+  
+}
+.parent_rooms h2{
+  font-size: 40px;
 }
 
 .parent_rooms .rooms #name{
   font-size: 100%;
+  
+}
+.book{
+  height: 300px;
 }
 #location{
-  width: 50px;
+  margin: auto;
+  width: 30px;
   height: 50px;
+ margin-left: 30px;
+  
 }
 #locationp{
-  font-size: 30px;
+  width: 70%;
+  font-size: 20px;
+  margin-left: 70px;
+  margin: auto;
 }
+#call{
+  width: 50px;
+  height: 50px;
+  float: left;
+  margin-left: 50px;
+}
+#callp{
+  width: 100%;
+  font-size: 20px;
+  
+  margin-left: 10px;
+
+
+}
+
 }
 
