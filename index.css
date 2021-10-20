@@ -92,14 +92,16 @@ body {
     font-family: 'Blood Crow Condensed Italic', sans-serif;
 margin-left: 10px;
 text-align: center;
+width: 90%;
                                                 
   }
   .parent_rooms {
-      background-color: rgba(0, 0, 0, 0.562);
+    background-image: url("images/background.jpg");
       width: 100%;
     height: auto;
     overflow: hidden;
     text-align: center;
+   
   }
   .parent_rooms h2{
     font-size: 50px;
@@ -129,7 +131,7 @@ text-align: center;
 .parent_rooms .rooms img{
 margin-left: auto;
 margin-right: auto;
-width: 400px;
+width: 100%;
 height: 300px;
 display: block;
 border-radius: 7px;
@@ -147,7 +149,7 @@ border: rgb(226, 181, 181);
   width: 100px;
 }
 #locationp{
-  float: left;
+  
   font-family: 'Blood Crow', sans-serif;
   font-family: 'Blood Crow Shadow', sans-serif;
   font-family: 'Blood Crow Shadow Condensed', sans-serif;
@@ -160,7 +162,7 @@ border: rgb(226, 181, 181);
   font-family: 'Blood Crow Expanded Italic', sans-serif;
   font-family: 'Blood Crow Condensed Italic', sans-serif;
   font-size: 40px;
-  margin-left: 100px;
+  
 }
 #call{
   float: left;
@@ -169,7 +171,7 @@ border: rgb(226, 181, 181);
   width: 100px;
 }
 #callp{
-  float: left;
+  
   font-family: 'Blood Crow', sans-serif;
   font-family: 'Blood Crow Shadow', sans-serif;
   font-family: 'Blood Crow Shadow Condensed', sans-serif;
@@ -182,7 +184,7 @@ border: rgb(226, 181, 181);
   font-family: 'Blood Crow Expanded Italic', sans-serif;
   font-family: 'Blood Crow Condensed Italic', sans-serif;
   font-size: 40px;
-  margin-left: 100px;
+  margin-left: 200px;
 }
 #working{
 margin-top: 200px;
@@ -252,20 +254,23 @@ font-size: 40px;
 font-size: 20px;
   }
   .parent_rooms{
-    height: 400px;
+    
+    height: 350px;
   }
   .parent_rooms .rooms{
-    width: 27%;
+    width: 26%;
     float: left;
   }
   .parent_rooms .rooms img{
     width: 100%;
+    
     position: relative;
-    height: 170px;
+    height: 120px;
   }
  
   .parent_rooms .rooms #name{
     font-size: 100%;
+    
   }
   #location{
     width: 50px;
@@ -292,21 +297,8 @@ font-size: 20px;
     text-align: center;
     margin-left: 10px;
   }
-  .buttons{
-    width: 100%;
-    height: 200px;
-  }
-  .buttons .follow{
-    width: 100%;
-    margin-top: 60px;
-    text-align: center;
-  }
-  
-  .buttons a img{
-margin-left: 100px;
 
-
-  }
+ 
 }
 @media only screen and (min-width:421px) and (max-width:650px){
 
@@ -322,7 +314,41 @@ margin-left: 100px;
     width: 100%;
     height: 80%;
   }
-
+ 
+  .paragraph p{
+    font-size: 20px;
+    width: 90%;
+   
+    
+      }
+      .buttons .follow{
+        
+        margin-top: -100px;
+    
+      }
+  
+  .parent_rooms{
+    width: 100%;
+    height: 400px;
+    
+  }
+  .parent_rooms .rooms{
+    width: 28%;
+    float: left;
+  }
+  .parent_rooms .rooms img{
+    width: 80%;
+    position: relative;
+    height: 150px;
+    margin-left: 20px;
+    border:rgb(226, 181, 181);
+    border-radius: 20px 20px 20px 20px;
+    
+  }
+ 
+  .parent_rooms .rooms #name{
+    font-size: 100%;
+  }
 .welcome h1{
 
   color: transparent;
@@ -382,14 +408,26 @@ margin-left: 100px;
     left: 51%;
   }
 }
+#location{
+  width: 50px;
+  height: 50px;
+  
+}
+#locationp{
+  
+  font-size: 20px;
+}
+#call{
+  width: 50px;
+  height: 50px;
+}
 #callp{
-  font-size: 50px;
+
+  font-size: 30px;
 }
 #working{
+  margin: 7px;
   font-size: 35px;
-}
-.buttons{
-  margin-top: 100px;
 }
 
 
@@ -402,6 +440,10 @@ margin-left: 100px;
 .main .header img{
   width: 100%;
   height: 300px;
+}
+.paragraph p{
+  font-size: 30px;
+  
 }
 .welcome{
   width: 100%;
@@ -468,20 +510,39 @@ margin-left: 100px;
 #callp{
   font-size: 30px;
 }
+#call{
+  width: 50px;
+  height: 50px;
+}
 #working{
   margin-left: 30px;
 }
-.buttons{
-  margin-top: 300px;
-  width:100%;
+.parent_rooms{
+  
+  height: 400px;
+}
+.parent_rooms .rooms{
+  width: 28%;
+  margin-left: 20px;
+}
+.parent_rooms .rooms img{
+  width: 80%; 
+  position: relative;
+  height: 180px;
+  margin-left: 20px;
+  border-radius: 7px;
   
 }
 
-.buttons .follow p{
- text-align: center;
- margin-right: 50px;
- 
-
+.parent_rooms .rooms #name{
+  font-size: 100%;
+}
+#location{
+  width: 50px;
+  height: 50px;
+}
+#locationp{
+  font-size: 30px;
 }
 }
 
