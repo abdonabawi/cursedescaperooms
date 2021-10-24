@@ -1,27 +1,29 @@
 body {
-  Max-width: 800%;
+  Max-width: 900%;
 margin: auto;
   }
 .main{
 
     position: relative;
     width:100%;
-    height:500px;
+    height:50vh;
     background-repeat: no-repeat;
     background-size: cover;
 }
 .main img{
  
-    width: 100%; height: 500px; object-fit: cover; object-position: 50% 50%;
+    width: 100%; height: 50vh;  object-position: 50% 50%;
 }
 .space{
     width:100%;
     height: 60px;
 }
 .welcome{
- height: 650px;
+ 
  background-image: url("images/p\ background.jpg");
- background-size: 1500px 786px;
+ background-size: cover;
+ background-repeat: no-repeat;
+ height: 80vh;
 }
 .welcome .background h1{
   font-size: 50px;
@@ -32,382 +34,472 @@ margin: auto;
   text-align: center;
   }
   .line{
-    width:400px;
+    
+    width:20vw;
     height: 2px;
     margin: 0px auto;
     background-color: #ddd;
-    margin-top: -5px;
+    margin-top: -20px;
+    margin-bottom: 10px;
   }
   .paragraph{
-    background-image: url("images/blood\ paper.jpg");
-  width: 70%;
-  background-size: 1366px 786px;
-      font-size: 30px; 
-text-align: center;          
-margin: auto;  
-
-  }
+    
+  background-image: url("images/blood\ paper.jpg");
+  opacity: 0.7;
+  width: 90vw;
+  background-size:cover;
+  font-size: 30px; 
+  margin: auto; 
+  border-radius: 7px;
+  border:1px solid whitesmoke;
+  height: 55vh;
+}
   .paragraph p{
-    margin: 10px;
+
     color: rgb(255, 255, 255);
+    text-align: center;
+    height: 6vh;
+  }
+  .working{
+    width: 100%;
+    height: 8vh;
+    background-image: url("images/dont_cross.png");
+   
+    background-repeat: no-repeat;
+    
+    }
+    .working p{
+      color: rgb(255, 255, 255);
+      text-align: center;
+      margin: auto 0;
+      font-size: 50px;
+    }
+  .welcome_covid{
+ 
+    background-image: url("images/p\ background.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 100vh;
+   }
+   .welcome_covid .background_covid h1{
+     font-size: 50px;
+    color: white;
+    text-align: center;
+   }
+ 
+  .paragraph_covid{
+    
+    background-image: url("images/blood\ paper.jpg");
+   opacity: 0.7;
+  width: 90vw;
+  background-size:cover;
+      height: 100hv;
+      margin: auto;
+border-radius: 7px;
+   border:1px solid whitesmoke;
+}
+.paragraph_covid h3{
+  font-size: 40px;
+  color: whitesmoke;
+  text-align: center;
+}
+  .paragraph_covid p{
+font-size: 20px;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    height: 7vh;
+  }
+  *{
+    box-sizing: border-box;
   }
   .parent_rooms {
+    width: 100%;
+    height: 50vh;
     background-image: url("images/background.jpg");
-      width: 100%;
-    height: auto;
-    overflow: hidden;
-    text-align: center;
-    margin-bottom: -30px;
-   
-  }
-  .parent_rooms h2{
-    font-size: 50px;
- color: red;
-  text-align: center;
+    background-size: cover;
+     display: flex;
   }
   .parent_rooms .rooms{
-    position: relative;
-    width: 30%;
-    height: 420px;
-    float: left;
-    margin: 10px;
-    overflow: hidden;
-    
+    flex: 30%;
+    padding: 4px;
   }
-
 .parent_rooms .rooms img{
-margin-left: auto;
-margin-right: auto;
-width: 100%;
-height: 300px;
+
+  border: 2px solid gold;
+margin: auto;
+width: 20vw;
+height: 35vh;
 display: block;
 border-radius: 7px;
-border: rgb(226, 181, 181);
+
+
 }
 .parent_rooms .rooms #name{
-  color: rgb(128, 5, 5);
-
+  color: rgb(255, 255, 255);
+text-align: center;
   font-size: 30px;
 }
 .book{
   color: rgb(255, 255, 255);
-  height: 350px;
-  background-image: url("images/book.jpg");
+  height: 34.5vh;
+  background-color: rgb(24, 16, 16);
+  display: flex;
+  width: 100%;
 }
-.book h1{
-  font-size: 40px;
-  text-align: center;
+.location_parent{
+  width: 100%;
+  height: 10vh;
+ margin-top: 30px;
+  }
+ 
+.location_parent .location img{
+  width: 5vw;
+  height: 10vh;
+  margin-left: 50%;
+}
+.location_parent .location p{
+  width: 90%; 
+  margin-left: 20%;
+  font-size: 20px;
 }
 
-#location{
-  float: left;
-  height: 100px;
-  margin-left: 100px;
-  width: 100px;
-  margin-top: -50px;
-  
+.call_parent{
+  width: 100%;
+height: 5vh;
+margin-top: 30px;
+
 }
-#locationp{
-  
-  color: rgb(255, 255, 255);
-  font-size: 40px;
-  
+.call a img{
+width: 5vw;
+height: 10vh;
+margin-left: 30%;
 }
 #call{
-  float: left;
-  height: auto;
-  margin-left: 100px;
-  width: 100px;
-}
-#callp{
   
-
-  font-size: 40px;
-  margin-left: 200px;
+  font-size: 20px;
+  margin-left: 29%;
 }
-#working{
-
-text-align: center;
 
 
-font-size: 40px;
-}
+
 
 @media only screen and (min-width:320px) and (max-width:420px){
   .main{
     position: relative;
     width:100%;
-    height:500px;
+    height: 30vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
-  
-  .main .header img{
-    width: 75%;
-    height: 50%;
-  }
-  .welcome{
-    margin-top: -282px;
-    width: 100%;
-    height: 320px;
-    background-size: 400px 400px;
-    
-  }
-  .welcome .background h1{
-    
-   left: 70%;
-   font-size: 30px;
-    
-    width: 100%;
-    text-align: center;
-  }
- .line{
-    width: 90px;
-  }
-  .paragraph{
-    width: 80%;
-  }
-  .paragraph p{
-font-size: 10px;
-  }
-  .parent_rooms{
-    
-    height: 350px;
-  }
-  .parent_rooms .rooms{
-    width: 26%;
-    float: left;
-    margin-left: 20px;
-  }
-  .parent_rooms .rooms img{
-    width: 100%;
-    
-    position: relative;
-    height: 120px;
-  }
-  .parent_rooms h2{
-    font-size: 40px;
+  .main img{
+    height: 30vh;
   }
  
-  .parent_rooms .rooms #name{
-    font-size: 100%;
+
+  .welcome{
+ width: 100%;
+    background-size: 320px 420px;
     
   }
-  .book{
-    height: 300px;
+  
+  .welcome .background h1{
+    font-size: 30px;
   }
-  #location{
-    margin-top: 10px;
-    width: 30px;
-    height: 50px;
-    float: left;
-    margin-left: 10px;
+ 
+  .welcome .paragraph p{
+    font-size: 10px;
     
   }
-  #locationp{
-    width: 100%;
+  .working p{
+    
     font-size: 20px;
-    text-align: center;
-    
   }
-  #call{
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin-left: 50px;
+  .welcome_covid{
+    background-size: 320px 421px;
+  
   }
-  #callp{
-    width: 100%;
-    font-size: 20px;
-    text-align: center;
-    margin-left: 10px;
+  .welcome_covid .paragraph_covid{
+    height: 70vh;
+  }
+  .welcome_covid .background_covid h1{
+    font-size: 30px;
+  }
+  .welcome_covid .paragraph_covid h3{
+    font-size: 19px;
+  }
+  .welcome_covid .paragraph_covid p{
+    font-size: 10px;
   }
 
+
+  .parent_rooms .rooms img{
+    
+    width: 30vw;
+    height: 30vh;
+  }
+  .parent_rooms .rooms #name{
+    font-size: 15px;
+  }
+  .book .location_parent .location p{
+    font-size: 10px;
+  }
+ #call{
+   font-size: 13px;
+   
+ }
  
 }
-@media only screen and (min-width:421px) and (max-width:650px){
 
+
+@media only screen and (min-width:420px) and (max-width:600px){
   .main{
     position: relative;
     width:100%;
-    height:300px;
+    height:28vh;
     background-repeat: no-repeat;
     background-size: cover;
   }
   
-  .main .header img{
-    width: 100%;
-    height: 83%;
+  .main img{
+    height: 30vh;
   }
- 
- 
-  
   .welcome{
-  
-    width: 100%;
-    height: 320px;
-    background-size: 400px 400px;
-    
+    margin-top: 10px;
+    background-size: 100% 100%;
   }
-  .welcome .background h1{
-    
-   left: 70%;
+ .welcome .background h1{
+   
    font-size: 30px;
-    
-    width: 100%;
-    text-align: center;
-  }
- .line{
-    width: 90px;
-  }
-  .paragraph{
-    width: 80%;
-  }
-  .paragraph p{
-font-size: 10px;
-  }
-  .parent_rooms{
-    
-    height: 350px;
-  }
-  .parent_rooms .rooms{
-    width: 26%;
-    float: left;
-    margin-left: 20px;
-  }
-  .parent_rooms .rooms img{
-    width: 100%;
-    
-    position: relative;
-    height: 120px;
-  }
-  .parent_rooms h2{
-    font-size: 40px;
-  }
- 
-  .parent_rooms .rooms #name{
-    font-size: 100%;
-    
-  }
-  .book{
-    height: 300px;
-  }
-  #location{
-    margin: auto;
-    width: 30px;
-    height: 50px;
-   margin-left: 30px;
-    
-  }
-  #locationp{
-    width: 70%;
-    font-size: 20px;
-    margin-left: 70px;
-    margin: auto;
-  }
-  #call{
-    width: 50px;
-    height: 50px;
-    float: left;
-    margin-left: 50px;
-  }
-  #callp{
-    width: 100%;
-    font-size: 20px;
-    
-    margin-left: 10px;
-  
-
-  }
-}
-@media only screen and (min-width:651px) and (max-width:1200px){
-.main{
-  width: 100%;
-  height: 400px;
-}
-.main .header img{
-  width: 100%;
-  height: 300px;
-}
-.welcome{
-  
-  width: 100%;
-  height: 320px;
-  background-size: 650px 420px;
-  
-}
-.welcome .background h1{
-  
- left: 70%;
- font-size: 30px;
-  
-  width: 100%;
-  text-align: center;
-}
-.line{
-  width: 90px;
-}
-.paragraph{
-  width: 90%;
-}
-.paragraph p{
-font-size: 13px;
+ }
+ .welcome .paragraph p{
+   font-size: 17px;
+ }
+ .working p{
+   font-size: 30px;
+ }
+ .welcome_covid .background_covid h1{
+   font-size: 30px;
+ }
+ .welcome_covid {
+   background-size: 100% 100%;
+ }
+ .welcome_covid .paragraph_covid{
+   height: 70vh;
+ }
+ .welcome_covid .paragraph_covid h3{
+   font-size: 30px;
+ }
+ .welcome_covid .paragraph_covid p{
+  font-size: 11px;
 }
 .parent_rooms{
-  
-  height: 350px;
-}
-.parent_rooms .rooms{
-  width: 26%;
-  
-  margin-left: 30px;
+  height: 40vh;
 }
 .parent_rooms .rooms img{
-  width: 90%;
-  
-  position: relative;
-  height: 100px;
-  
-  
+    
+  width: 20vw;
+  height: 20vh;
 }
-.parent_rooms h2{
-  font-size: 40px;
-}
-
 .parent_rooms .rooms #name{
-  font-size: 100%;
-  
+  font-size: 17px;
 }
-.book{
-  height: 300px;
-}
-#location{
-  margin: auto;
-  width: 30px;
-  height: 50px;
- margin-left: 30px;
-  
-}
-#locationp{
-  width: 70%;
-  font-size: 20px;
-  margin-left: 70px;
-  margin: auto;
+.book .location_parent .location p{
+  font-size: 15px;
 }
 #call{
-  width: 50px;
-  height: 50px;
-  float: left;
-  margin-left: 50px;
+  font-size: 15px;
+  
 }
-#callp{
-  width: 100%;
+}
+@media only screen and (min-width:601px) and (max-width:655px){
+  .main{
+    width: 100%;
+    height:30vh;
+  }
+  .main img{
+    height: 30vh;
+  }
+  .welcome{
+    
+    background-size: 100% 800px;
+  }
+ .welcome .background h1{
+
+   font-size: 30px;
+ }
+ .welcome .paragraph p{
+   font-size: 20px;
+ }
+ .working p{
+   font-size: 40px;
+ }
+ .welcome_covid .background_covid h1{
+   font-size: 40px;
+ }
+ .welcome_covid {
+   background-size: 100% 800px;
+   height: 100vh;
+ }
+ .welcome_covid .paragraph_covid{
+   height: 80vh;
+ }
+ .welcome_covid .paragraph_covid h3{
+   font-size: 40px;
+ }
+ .welcome_covid .paragraph_covid p{
+  font-size: 14px;
+  height: 6vh;
+}
+.parent_rooms{
+  height: 40vh;
+}
+.parent_rooms .rooms img{
+    
+  width: 30vw;
+  height: 20vh;
+}
+.parent_rooms .rooms #name{
+  font-size: 20px;
+}
+.book .location_parent .location p{
+  font-size: 20px;
+}
+#call{
   font-size: 20px;
   
-  margin-left: 10px;
-
-
 }
 
 }
+@media only screen and (min-width:655px) and (max-width:800px){
+  .main{
+    width: 100%;
+    height:50vh;
+  }
+  .main  img{
+    width: 100%;
+    height: 50vh;
+  }
+  .welcome{
+    
+    background-size: 100% 800px;
+  }
+ .welcome .background h1{
 
+   font-size: 30px;
+ }
+ .welcome .paragraph p{
+   font-size: 20px;
+ }
+ .working p{
+   font-size: 40px;
+ }
+ .welcome_covid .background_covid h1{
+   font-size: 40px;
+ }
+ .welcome_covid {
+   background-size: 100% 800px;
+   height: 105vh;
+ }
+ .welcome_covid .paragraph_covid{
+  height: 85vh;
+ }
+ .welcome_covid .paragraph_covid h3{
+   font-size: 30px;
+ }
+ .welcome_covid .paragraph_covid p{
+  font-size: 20px;
+  height: auto;
+}
+.parent_rooms{
+  height: 40vh;
+}
+.parent_rooms .rooms img{
+    
+  width: 30vw;
+  height: 20vh;
+}
+.parent_rooms .rooms #name{
+  font-size: 20px;
+}
+.book .location_parent .location p{
+  font-size: 20px;
+}
+#call{
+  font-size: 20px;
+  
+}
+
+}
+@media only screen and (min-width:800px) and (max-width:1200px){
+  .main{
+    width: 100%;
+    height:30vh;
+  }
+  .main  img{
+    width: 100%;
+    height: 30vh;
+  }
+  .welcome{
+    height: 50vh;
+    background-size: 100% 800px;
+  }
+  .welcome .background{
+    height: auto;
+  }
+ .welcome .background h1{
+
+   font-size: 30px;
+ }
+ .welcome .paragraph{
+   height: 40vh;
+ }
+ .welcome .paragraph p{
+   
+   font-size: 20px;
+ }
+ .working{
+   height: 5vh;
+ }
+ .working p{
+   font-size: 40px;
+ }
+ .welcome_covid .background_covid h1{
+   font-size: 40px;
+ }
+ .welcome_covid {
+   background-size: 100% 800px;
+   height: 60vh;
+ }
+ .welcome_covid .paragraph_covid{
+  height: 50vh;
+ }
+ .welcome_covid .paragraph_covid h3{
+   font-size: 30px;
+ }
+ .welcome_covid .paragraph_covid p{
+  font-size: 20px;
+  height: auto;
+}
+.parent_rooms{
+  height: 30vh;
+}
+.parent_rooms .rooms img{
+    
+  width: 30vw;
+  height: 20vh;
+}
+.parent_rooms .rooms #name{
+  font-size: 20px;
+}
+.book{
+  height: 20vh;
+}
+.book .location_parent .location p{
+  font-size: 20px;
+}
+#call{
+  font-size: 20px;
+  
+}
+
+}
